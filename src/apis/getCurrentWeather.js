@@ -32,6 +32,7 @@ export const scrollToElement = (elementId) => {
 		.scrollIntoView({ behaviour: "smooth" });
 };
 
+
 export const checkWeatherUnitDeg = () => {
 	let result;
 	if (db.get("WEATHER_UNIT")) {
